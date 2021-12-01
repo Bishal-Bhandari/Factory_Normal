@@ -1,0 +1,136 @@
+.head-btn:hover{
+  background-color: #a52a2a !important;
+  color: #f1efef;
+  border:1px solid #a52a2a;
+}
+/* shadow for general content section */
+.general-content-shadow{
+    box-shadow:0px 5px 30px rgb(222, 218, 218);
+  }
+  /* general content section's icon's style */
+  .fa-500px{
+   color: rgb(255, 0, 0);
+  }
+  .fa-calendar-week{
+   color:rgb(0, 0, 255);
+  }
+  .fa-medal{
+   color: rgb(220, 120, 226);
+  }
+  .fa-heart{
+   color: rgb(0, 128, 0);
+  }
+  .para-color{
+   color: #808080;
+   font-size: 13px;
+  }
+  .para-service{
+    text-align: justify;
+  }
+/* first section */
+  .para-firstSection-indexSecondary{
+	color: #808080;
+	font-size: 14px;
+	clear: both;
+}
+.heading-font-size{
+	font-size: 35px;
+}
+.head-heading-top{
+	color: #a52a2b;
+}
+
+/* style for counter section */
+.show-project-num {
+    padding: 50px 0px;
+    width: 24.70%;
+    z-index: 1;
+}
+.value{
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  margin-top: 40px;
+}
+.bar{
+margin-top: 140px;
+height: 80px;
+width: 1px;
+background-color: rgb(255, 255, 255);
+z-index: 1;
+}
+.counter-row-img{
+  height: 100%;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  overflow: hidden;
+}
+.counter-row-img::before{
+  content: "";
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+}
+.counter-icon{
+  color: rgb(33, 130, 178);
+  height: 30%;
+  width: 20%;
+  margin-top: 20px;
+}
+.counter-name{
+  color: rgb(33, 130, 178);
+}
+
+
+
+
+/* footer css */
+#footer{
+  padding-left: 10px;
+}
+.footer-para-indexSecondary{
+	line-height: 25px;
+    font-size: 13px
+}
+.li-style{
+	height: 30px;
+}
+.li-style>a{
+	font-size: 13px;
+	text-decoration: none !important;
+}
+.li-style>a:hover{
+	color: #464545!important;
+}
+.footer-socialicon{
+	width: 37px;
+    background: #f1efef;
+    padding: 11px 13px;
+    border-radius: 50%;
+    border: 1px solid #f6c53d;
+}
+.footer-socialicon:hover{
+	background-color: #f6c53d;
+	color: white;
+	border: 1px solid #f6c53d;
+}
+.underline-bar-indexSecondary{
+	width: 17%;
+	background-color: rgb(33, 130, 178);
+	height: 5px;
+	float: left;
+}
+.footer-link-brandname{
+	color:#f6c53d;
+}
+.footer-strong-contact{
+  color: #a52a2a;
+}
+.wrap-div{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
